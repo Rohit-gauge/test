@@ -6,6 +6,7 @@ import Bottles from "./components/Pages/bottle";
 import About from "./components/Pages/about";
 import Product from "./components/Pages/products";
 import Contact from "./components/Pages/contacts";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      
     </BrowserRouter>
   );
 };
